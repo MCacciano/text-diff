@@ -1,0 +1,28 @@
+body {
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.container .wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .wrapper div {
+  margin-top: 50px;
+}
+.container .wrapper textarea {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.highlight {
+  background-color: greenyellow;
+}
