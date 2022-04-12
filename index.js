@@ -10,6 +10,7 @@ const valueTwo = inputTwo.textContent;
 displayOne.innerHTML = valueOne;
 
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque possimus enim ex praesentium, sequi eos corrupti nisi unde eius expedita magni iure repudiandae incidunt ad rerum reiciendis ratione dicta aliquid laborum! Amet labore placeat perspiciatis! Animi iusto facilis reiciendis expedita id quibusdam reprehenderit et quidem nostrum porro? Aut, suscipit?
+const originalTextArr = valueOne.trim().split('\n');
 
 inputTwo.addEventListener('keyup', function (e) {
   const charArr = e.target.value.split('');
